@@ -2,15 +2,18 @@
 //  ContentView.swift
 //  WCodingChallenge
 //
-//  Created by Field Employee on 8/31/21.
+//  Created by Froy on 8/31/21.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color(.lightGray)
+                .ignoresSafeArea()
+            citiesDropDown()
+        }
     }
 }
 
@@ -19,3 +22,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

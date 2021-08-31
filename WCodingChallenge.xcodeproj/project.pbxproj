@@ -13,6 +13,8 @@
 		3A2C9E4126DEC22B006D866B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2C9E4026DEC22B006D866B /* Preview Assets.xcassets */; };
 		3A2C9E4C26DEC22B006D866B /* WCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C9E4B26DEC22B006D866B /* WCodingChallengeTests.swift */; };
 		3A2C9E5726DEC22B006D866B /* WCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C9E5626DEC22B006D866B /* WCodingChallengeUITests.swift */; };
+		3A2C9E6526DEC72C006D866B /* citiesDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C9E6426DEC72C006D866B /* citiesDropDown.swift */; };
+		3A2C9E6726DEC7B4006D866B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C9E6626DEC7B4006D866B /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		3A2C9E5226DEC22B006D866B /* WCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2C9E5626DEC22B006D866B /* WCodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCodingChallengeUITests.swift; sourceTree = "<group>"; };
 		3A2C9E5826DEC22B006D866B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2C9E6426DEC72C006D866B /* citiesDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = citiesDropDown.swift; sourceTree = "<group>"; };
+		3A2C9E6626DEC7B4006D866B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				3A2C9E3926DEC227006D866B /* WCodingChallengeApp.swift */,
 				3A2C9E3B26DEC227006D866B /* ContentView.swift */,
+				3A2C9E6626DEC7B4006D866B /* Model.swift */,
+				3A2C9E6426DEC72C006D866B /* citiesDropDown.swift */,
 				3A2C9E3D26DEC22B006D866B /* Assets.xcassets */,
 				3A2C9E4226DEC22B006D866B /* Info.plist */,
 				3A2C9E3F26DEC22B006D866B /* Preview Content */,
@@ -261,6 +267,8 @@
 			files = (
 				3A2C9E3C26DEC227006D866B /* ContentView.swift in Sources */,
 				3A2C9E3A26DEC227006D866B /* WCodingChallengeApp.swift in Sources */,
+				3A2C9E6526DEC72C006D866B /* citiesDropDown.swift in Sources */,
+				3A2C9E6726DEC7B4006D866B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
